@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+#nav1{
+    width: 100%;
+    height: 100px;
+    /* background-color: red; */
+    display: flex;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    position: relative;
+}
+
+#nav1 h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-left: 100px;
+    color: orangered;
+}
+
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav2 h5{
+    color: #000;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.nav2 i{
+    margin: 20px;
+    cursor: pointer;
+}
+
+.nav {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.top {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    margin-top: 100px;
+}
+
+.topl {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 35px;
+    padding: 10px 20px;
+}
+
+.topl p {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.topr {
+    width: 50%;
+    height: 100%;
+    margin-right: 30px;
+    background-image: url(https://images.unsplash.com/photo-1670272505391-8efda8e7a99c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.toprr{
+    width: 50%;
+    height: 100%;
+    margin-right: 30px;
+    background-image: url(https://images.unsplash.com/photo-1678297405555-c2816eccdd00?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.bottom {
+    width: 100%;
+    height: 50%;
+    /* background-color: blue; */
+    display: flex;
+    margin-top: 100px;
+}
+
+.bottoml {
+    width: 50%;
+    height: 100%;
+    margin-right: 40px;
+    padding: 0 30px;
+    background-image: url(https://images.unsplash.com/photo-1670272502972-cccb4b96c4f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.bottomr {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+h3 {
+    font-size: 35px;
+    padding: 10px 20px;
+}
+
+.bottom p {
+    font-size: 20px;
+    text-align: left;
+    margin: left 50px;
+}
+.navb {
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+    margin-top: 80px;
+    
+}
+
+.navb h5{
+    color: #fff;
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+.navb input{
+    font-size: 20px;
+    border: 1px solid #fff;
+    padding: 10px 10px;
+    position: absolute;
+    top: 244%;
+    left: 61%;
+    margin-bottom: 10px;
+    color: #fff;
+    background-color: transparent;
+}
+
+.navb button{
+    font-size: 20px;
+    color: #fff;
+    background-color: orangered;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    margin: 0 10px;
+    position: absolute;
+    top: 244%;
+    left: 83%;
+}
+
+.footer{
+    display: flex;
+    /* margin-top: 1%; */
+    /* margin-left: 5%; */
+    height: 30%;
+}
+
+.company{
+    /* font-size: 20px; */
+    /* font-weight: 700; */
+    margin-right: 10px;
+    margin-left: 85px;
+    margin-top: 10px;
+
+}
+
+.company h1{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.company p{
+    font-size: 15px;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.service{
+    margin-right: 10px;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.service p{
+    font-size: 15px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.service h1{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.order{
+    margin-right: 10px;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.order p{
+    font-size: 15px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.order h1{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.payment{
+    margin-right: 10px;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.payment h1{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.payment img{
+    width: 15%;
+    margin: 5px;
+
+}
+
+.payment h5{
+    font-size: 15px;
+    margin-top: 10px;
+}
